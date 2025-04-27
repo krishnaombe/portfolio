@@ -1,0 +1,192 @@
+/* Reset and base styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html, body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f7fb;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Container for centralizing the content */
+  .container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 2rem;
+  }
+  
+  /* Header Styles */
+  header {
+    background: #1e2a47;
+    color: #fff;
+    padding: 3rem 0 2rem 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  header .location {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  
+  header .about {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  
+  header .contact {
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+  }
+  
+  header .linkedin {
+    color: #fff;
+    background: #0077b5;
+    text-decoration: none;
+    padding: 0.7em 1.5em;
+    border-radius: 30px;
+    margin-top: 1.2rem;
+    display: inline-block;
+    font-weight: 600;
+    transition: background 0.3s ease;
+  }
+  
+  header .linkedin:hover {
+    background: #005983;
+  }
+  
+  /* Navbar Styles */
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  nav a {
+    color: #f0f6f8;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.4em 1.2em;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    transition: background 0.2s ease;
+  }
+  
+  nav a:hover,
+  nav a:focus {
+    background: #f0f6f8;;
+  }
+  
+  /* Main Content Styling */
+  main {
+    padding: 2rem;
+  }
+  
+  /* Card Styles for sections */
+  .card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2.5rem;
+    padding: 2.5rem;
+  }
+  
+  .card h2 {
+    color: #1e2a47;
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+    font-weight: 700;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 10px;
+  }
+  
+  /* Section List Styling */
+  ul {
+    margin-top: 1.2rem;
+    list-style: none;
+  }
+  
+  ul li {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+  }
+  
+  ul li strong {
+    color: #1e2a47;
+    font-weight: 600;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background: #1e2a47;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 3rem;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2.2rem;
+    }
+  
+    .container {
+      padding: 1rem;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+      gap: 0.8rem;
+    }
+  
+    .card {
+      padding: 1.5rem 1.2rem;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    header .about {
+      font-size: 1rem;
+    }
+  
+    header .contact {
+      font-size: 1rem;
+    }
+  
+    nav ul {
+      gap: 1rem;
+    }
+  
+    .card h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  /* Icon Styling */
+  i.fas, i.fab {
+    margin-right: 0.6rem;
+    font-size: 1.4rem;
+  }
+  
+  /* Links and Hover States */
+  a {
+    color: #f0f6f8;;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    /* color: #0077b5; */
+  }
+  
